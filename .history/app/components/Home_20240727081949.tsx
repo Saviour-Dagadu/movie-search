@@ -116,7 +116,7 @@ const MovieComponent = () => {
                                 <Genres
                                     key={genre.id}
                                     index={index}
-                                    lenght={movie.genres.length}
+                                    lenght={movie.genres.lenght}
                                     name={genre.name}
                                 />
                             ))}
