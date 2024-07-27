@@ -135,7 +135,7 @@ const MovieComponent = () => {
                         </div>
 
                         <div className='inline-block pt-6 cursor-pointer' onClick={() => setShowPlayer(true)}>
-                            <div className='flex gap-2 items-center bg-white text-black px-4 py-2 mb-7 hover:bg-[#b4b4b4]'>
+                            <div className='flex gap-2 items-center bg-black text-white px-4 py-2 mb-7 hover:bg-[#b4b4b4]'>
                                 <BsPlayFill size={24} />
                                 Watch Trailer
                             </div>
