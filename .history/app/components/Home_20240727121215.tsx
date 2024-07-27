@@ -45,7 +45,7 @@ const MovieComponent = () => {
             console.log("Search Parameter:", searchMovie);
 
             if (searchMovie === null) {
-                searchMovie = "Love at first sight"; // Default movie name
+                searchMovie = "Dead Zone"; // Default movie name
             }
 
             try {
