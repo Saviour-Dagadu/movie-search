@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
           primary: 'red',
           secondary: 'black',
-          textColor: 'gray',
+          textColor: 'white',
       },
     },
   },
