@@ -107,7 +107,7 @@ const MovieComponent = () => {
                         {isImgLoading && <Loading />}
                     </div>
                     <div className='space-y-6'>
-                        <div className='uppercase -translate-y-3 text-[26px] md:text-[34px] font-medium pr-4 text-black'>
+                        <div className='uppercase -translate-y-3 text-[26px] md:text-[34px] font-medium pr-4 text-white'>
                             {movie?.title}
                         </div>
 
@@ -135,7 +135,7 @@ const MovieComponent = () => {
                         </div>
 
                         <div className='inline-block pt-6 cursor-pointer' onClick={() => setShowPlayer(true)}>
-                            <div className='flex gap-2 items-center bg-black text-white px-4 py-2 mb-7 hover:bg-[#b4b4b4]'>
+                            <div className='flex gap-2 items-center bg-white text-black px-4 py-2 mb-7 hover:bg-[#b4b4b4]'>
                                 <BsPlayFill size={24} />
                                 Watch Trailer
                             </div>
