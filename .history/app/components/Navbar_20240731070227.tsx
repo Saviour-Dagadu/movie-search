@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import React, { useState } from 'react';
-import DarkModeSwitch from './DarkModeSwitch';
 
 const Navbar = () => {
     const [input, setInput] = useState("");
@@ -20,8 +19,8 @@ const Navbar = () => {
                 <Link href="/">
                     <div className="text-[30px] font-medium">Logo</div>
                 </Link>
-                <form onSubmit={searchMovie} className="space-x-4 flex items-center gap-4">
                 <DarkModeSwitch />
+                <form onSubmit={searchMovie} className="space-x-4">
                     <input
                         type="text"
                         className="bg-secondary px-4 py-2 outline-none placeholder:text-textColor"

@@ -20,7 +20,7 @@ const Navbar = () => {
                 <Link href="/">
                     <div className="text-[30px] font-medium">Logo</div>
                 </Link>
-                <form onSubmit={searchMovie} className="space-x-4 flex items-center gap-4">
+                <form onSubmit={searchMovie} className="space-x-4 justify-between items-center">
                 <DarkModeSwitch />
                     <input
                         type="text"
